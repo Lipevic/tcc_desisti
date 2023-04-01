@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>723</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>721</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 16pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Numero de Confirmação</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>O número de confirmação do TCP (Transmission Control Protocol) é um campo de 32 bits que é usado para garantir a entrega confiável de dados</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>611</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>em uma conexão TCP.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quando um host envia um segmento TCP para outro host, o número de sequência é usado para identificar a posição do primeiro byte de dados no</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>segmento. Quando o host receptor recebe o segmento, ele envia de volta uma confirmação TCP contendo o número de confirmação,  que é igual</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>igual ao número de sequência mais o número de bytes recebidos com sucesso.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>O número de confirmação é usado pelo host transmissor para determinar quais dados foram entregues  com sucesso e quais ainda precisam ser</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>611</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> que o segmento foi perdido e o retransmite.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> ser retransmitidos. Se o transmissor não receber uma confirmação para um segmento em um determinado  período de tempo, ele assume </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Em resumo, o número de confirmação é um mecanismo usado pelo TCP para garantir que os dados sejam entregues com sucesso e para</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>controlar controlar o fluxo de dados em uma conexão TCP.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>310</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 100 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Nesse processo da comunicação que é o estabelecimento</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>330</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 100 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string> de conexão não possui numero de confirmação</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>O número de confirmação do TCP é um campo de 32 bits, o que significa que pode assumir valores entre 0 e 4.294.967.295 (2^32 - 1). </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Portanto, o número mínimo que pode ser usado como número de confirmação é 0 e o número máximo é 4.294.967.295.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>460</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid #000;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Número de confirmação:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>380</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nenhum</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

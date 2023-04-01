@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="baloes">
+    <file>balao.png</file>
+  </qresource>
+  <qresource prefix="balao2">
+    <file>balao1.png</file>
+  </qresource>
+</RCC>

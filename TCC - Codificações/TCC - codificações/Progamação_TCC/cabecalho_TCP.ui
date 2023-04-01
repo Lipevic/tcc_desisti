@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>666</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1</y>
+      <width>671</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 16pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>CABEÇALHO TCP</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="checksum">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Checksum</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="porta_destino">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>90</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Porta de Destino</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="numero_confirmacao">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>591</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Número de Confirmação</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="porta_origem">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Porta de Origem</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="numero_sequencia">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>591</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Número de Sequência</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tamanho_cabecalho">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Tamanho do Cabeçalho</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="reservado">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>240</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Reservado</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flags">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>240</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Flags </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tamanho_janela">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>240</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Tamanho da Janela </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ponteiroUrgente">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>290</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Ponteiro Urgente</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="opcoes">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>591</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+QLabel:hover{
+	
+	background-color: rgb(208, 208, 208);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Opções</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>410</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 16pt &quot;Arial&quot;;
+	background-color: #32a041;
+	color: rgb(255, 255, 255);
+	border: 2px solid #32a041;
+	border-radius:20px;
+}
+
+
+QPushButton:hover{
+	background-color: rgb(31, 100, 41);
+	border: 2px solid  rgb(31, 100, 41);
+}</string>
+    </property>
+    <property name="text">
+     <string>CONFIRMAR CABEÇALHO</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

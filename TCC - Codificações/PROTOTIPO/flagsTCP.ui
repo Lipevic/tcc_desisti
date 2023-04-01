@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>573</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>571</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 16pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Flags ou Sinais de Controle </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>551</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>No protocolo TCP (Transmission Control Protocol), existe um campo chamado &quot;flags&quot; ou &quot;sinais de controle&quot; que </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>551</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>que é usado para controlar a comunicação entre os hosts. As flags são bits individuais que indicam o status </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>551</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ou o estado da conexão, e são usadas para estabelecer, manter e encerrar uma conexão TCP.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>As principais flags do TCP são:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="syn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #c8191e;
+	color: rgb(255, 255, 255);
+
+	border-radius: 50px;
+}
+
+QPushButton:hover{
+	background-color: rgb(162, 20, 25);
+}
+/**QPushButton:active{
+	background-color: #32a041;
+} */</string>
+   </property>
+   <property name="text">
+    <string>SYN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ack">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #c8191e;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+QPushButton:hover{
+	
+	
+	background-color: rgb(162, 20, 25);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>ACK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fin">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #c8191e;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+QPushButton:hover{
+	
+	
+	background-color: rgb(162, 20, 25);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>FIN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rst">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #c8191e;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+QPushButton:hover{
+	
+	
+	background-color: rgb(162, 20, 25);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>RST</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="psh">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #c8191e;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+QPushButton:hover{
+	
+	
+	background-color: rgb(162, 20, 25);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>PSH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="urg">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #c8191e;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+QPushButton:hover{
+	
+	
+	background-color: rgb(162, 20, 25);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>URG</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
